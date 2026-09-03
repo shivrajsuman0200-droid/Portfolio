@@ -21,17 +21,17 @@ nav {
     background-color: var(--background);
 
     display: flex;
-    height: 80px;
+    height: 10px;
     width: 100vw;
     border-bottom: 1px solid rgb(49, 48, 48);
     justify-content: space-between;
-    padding: 30px 144px 30px 144px;
+    padding: 0px 144px 30px 144px;
     box-sizing: border-box;
 }
 
 nav ul {
     display: flex;
-    gap: 17px;
+    gap: 32px;
 }
 
 nav ul li {
@@ -39,7 +39,7 @@ nav ul li {
     /* removing the dots from list times (only for li of nav bar) */
     color: gray;
     font-size: 14px;
-    margin-left: 15px;
+    /* margin-left: 15px; */
     font-family: "Geist", sans-serif;
     font-weight: 130;
     transition: 0.5s;
@@ -283,3 +283,19 @@ code{
     font-size: large;
 }
 
+/* =================================about begins here============================ */
+.about{
+    margin-top: 110px;
+}
+
+.green-sub{
+        /* background-color: #162E21; */
+    font-family: "Geist-mono", monospace;
+    color: #30A46C;
+    /* padding: 4px 10px 4px 10px; */
+    /* border: 2px solid #30a46c66; */
+    /* border-radius: 5px; */
+    font-size: small;
+    padding-left: 120px;
+    
+}
