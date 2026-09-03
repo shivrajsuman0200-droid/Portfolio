@@ -88,7 +88,7 @@ body {
     color: var(--white);
     width: 652px;
     height: 268px;
-
+margin-left: 50px;
 
 }
 
@@ -120,7 +120,8 @@ h1 {
     font-weight: 100;
     font-size: medium;
     line-height: normal;
-    line-height: 1.6;
+    line-height: 1.6;   
+
     /* word-spacing: 10px; */
 
 }
@@ -178,10 +179,12 @@ h1 {
 
 .hero-right {
     background-color: var(--background);
-    height: 320px;
-    width: 400px;
+    height: 370px;
+    width: 450px;
     border: 18px;
+    margin-right: 100px;
 }
+
 
 .nav1 {
     background-color: #1F1F24;
@@ -230,8 +233,10 @@ h1 {
 #cpp {
     background-color: #101013e8;
     /* background-color: yellow; */
-    height: 250px;
-    width: 400px;
+    height: 310px;
+    border-bottom-left-radius:10px ;
+    border-bottom-right-radius:10px ;
+    width: 450px;   
 }
 
 #cpp-heading {
@@ -273,3 +278,8 @@ h1 {
     color: #E8613A;
     padding-left: 42px;
 }
+
+code{
+    font-size: large;
+}
+
