@@ -177,14 +177,7 @@ h1 {
 
 
 }
-
-.arrow {
-    position: absolute;
-
-}
-
-
-
+    
 .hero-right {
     background-color: var(--background);
     height: 370px;
