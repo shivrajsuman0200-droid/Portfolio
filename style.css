@@ -3,6 +3,12 @@
     padding: 0;
 }
 
+/* to create smooth scrolling */
+html {
+
+    scroll-behavior: smooth;
+}
+
 :root {
     --white: #F3F4F6;
     --gray: #9CA3AF;
@@ -49,6 +55,7 @@ nav ul li a {
     color: gray;
 }
 
+/* To create hover effect */
 nav ul li a:hover {
     color: white;
     font-weight: 200;
@@ -88,7 +95,7 @@ body {
     color: var(--white);
     width: 652px;
     height: 268px;
-margin-left: 50px;
+    margin-left: 50px;
 
 }
 
@@ -120,7 +127,8 @@ h1 {
     font-weight: 100;
     font-size: medium;
     line-height: normal;
-    line-height: 1.6;   
+    line-height: 1.6;
+    color: #9CA3AF;
 
     /* word-spacing: 10px; */
 
@@ -131,7 +139,7 @@ h1 {
 }
 
 .White-button {
-    background-color: (--white);
+    background-color: var(--white);
     width: 130px;
     height: 39px;
     font-size: 12px;
@@ -149,7 +157,7 @@ h1 {
 }
 
 .black-button {
-    background-color: (var(--background));
+    background-color: var(--background);
     border: 2px solid var(--gray);
     width: 130px;
     margin-left: 10px;
@@ -234,9 +242,9 @@ h1 {
     background-color: #101013e8;
     /* background-color: yellow; */
     height: 310px;
-    border-bottom-left-radius:10px ;
-    border-bottom-right-radius:10px ;
-    width: 450px;   
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    width: 450px;
 }
 
 #cpp-heading {
@@ -279,17 +287,17 @@ h1 {
     padding-left: 42px;
 }
 
-code{
+code {
     font-size: large;
 }
 
 /* =================================about begins here============================ */
-.about{
+#about {
     margin-top: 110px;
 }
 
-.green-sub{
-        /* background-color: #162E21; */
+.green-sub {
+    /* background-color: #162E21; */
     font-family: "Geist-mono", monospace;
     color: #30A46C;
     /* padding: 4px 10px 4px 10px; */
@@ -297,5 +305,30 @@ code{
     /* border-radius: 5px; */
     font-size: small;
     padding-left: 120px;
-    
+
+}
+
+h2 {
+    color: white;
+    padding-left: 118px;
+    /* margin-top: 10px; */
+    font-size: 40px;
+    font-weight: 100;
+
+    /* height: ; */
+}
+
+#aboutText {
+    font-family: "Geist", monospace;
+    font-weight: 100;
+    color: #9CA3AF;
+    padding-left: 118px;
+    width: 65vw;
+    padding-top: 3vh;
+    /* letter-spacing: 1.05px; */
+    /* word-spacing: 1.2; */
+    font-weight: 100;
+    font-size: medium;
+    line-height: normal;
+    line-height: 1.6;
 }
