@@ -36,7 +36,7 @@ nav {
     position: sticky;
     flex-shrink: 0;
     /* trying to avoid shrinking of nav bar */
-    top:0;
+    top: 0;
     z-index: 1000;
 }
 
@@ -331,11 +331,15 @@ h2 {
     line-height: 1.6;
 }
 
-.gray-box p {
+
+
+.CapSmallText{
     color: #9CA3AF;
     font-family: "Geist", monospace;
-    font-weight: 100;
+    font-weight: 150;
     font-size: 9px;
+    letter-spacing: 3px;
+
 }
 
 .gray-box {
@@ -349,7 +353,7 @@ h2 {
 
 .gray-box div {
     display: flex;
-    background-color: #1F1F24;
+    background-color: #27272d3b;
     flex-direction: column;
     border-radius: 4px;
     padding: 6px 70px 6px 70px;
@@ -360,6 +364,53 @@ h2 {
 
     color: white;
     font-family: "Schibsted Grotesk", sans-serif;
-    font-size: small;
+    font-size: medium;
 
+}
+
+#heading2 {
+    margin-top: 180px;
+    margin-bottom: 40px;
+
+}
+
+#heading2 div,h2{
+    margin-left:109px;
+    padding:0px;
+    }
+
+
+.Skill-box {
+/* background-image: linear-gradient(to right, rgb(176, 227, 205) ,rgb(19, 40, 93)); */
+margin-left:108px;
+
+}
+
+.Skill-box div{
+    display: flex;
+    /* margin: 10px 30px 10px 30px; */
+
+
+}
+
+.Skill-box div div{
+    height: 60px;
+    width:inherit;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    background-color: #1F1F24;
+    color: white;
+    font-family: "Geist-mono", monospace;
+    font-size: small;
+    margin: 3px;
+    margin-bottom: 40px;
+
+}
+
+.Skill-box p{
+    padding-left: 6px;
+    font-weight: 250;
+    font-size: smaller;
 }
