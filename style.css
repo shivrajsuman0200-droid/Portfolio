@@ -484,4 +484,35 @@ margin-left:108px;
     margin-left: 84px;
     margin-top: 30px;
     margin-right: 110px;
+    margin-bottom: 100px;
+}
+
+#contact{
+    height: 20vh;
+    background-color: #2c2c3368;
+    padding-top: 96px;
+
+}
+#contact div{
+/* padding-left:84px ; */
+margin-left: 0px;
+}
+#contact div p{
+    padding-left: 108px;
+    padding-top: 15px;
+    color: rgba(255, 255, 255, 0.551);
+    font-family: "Geist-mono", monospace;
+    /* gap: 10px;     */
+    /* line-height: 10px; */
+ font-size: small;
+}
+
+#contact div h2{
+    padding-left: 105px;
+
+    margin-left: 0;
+}
+
+#contact div .green-sub{
+    padding-left: 110px;
 }
