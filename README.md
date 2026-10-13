@@ -57,6 +57,6 @@ The website follows a simple, dark, minimal and technical design philosophy. The
 
 ## Connect
 
-If you have an interesting idea, problem, or project you'd like to work on together, feel free to reach out.
+If you have an interesting idea, problem, or project you'd like to work on together, feel free to reach out.  
 
 **Shivraj Suman**
